@@ -1,5 +1,5 @@
 from copy import copy
-from inspect import getargspec
+from inspect import getfullargspec as getargspec
 
 import django
 
